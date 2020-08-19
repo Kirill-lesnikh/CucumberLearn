@@ -1,0 +1,9 @@
+# Browser configuration
+profile = Selenium::WebDriver::Firefox::Profile.new
+profile['media.navigator.permission.disabled'] = true
+profile['media.navigator.streams.fake'] = true
+
+
+
+# Starting new browser
+b = Watir::Browser.new :firefox, :profile => profile
