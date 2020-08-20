@@ -37,7 +37,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  cucumber
+  cucumber (~> 3.0)
   watir
 
 RUBY VERSION
